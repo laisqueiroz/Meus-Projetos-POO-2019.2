@@ -1,0 +1,24 @@
+package aulapratica;
+
+import java.util.ArrayList;
+
+
+public class Treino {
+	public static void status(ArrayList<Integer> array){
+		for (Integer elem : array){
+			System.out.print(elem + " ");
+		}
+		System.out.println("\n");
+		
+	}
+	public static void main(String[] args) {
+		ArrayList<Integer> lista = new ArrayList<Integer>();
+		lista.add(1);
+		lista.add(2);
+		status(lista);
+		lista.add(0, 0);
+		status(lista);
+		lista.remove(1);
+		}
+
+}

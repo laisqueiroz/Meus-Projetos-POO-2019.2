@@ -1,0 +1,21 @@
+package saladeaula;
+
+import java.util.Scanner;
+
+public class Sala {
+	
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		Aluno aluno = new Aluno();
+		
+		while(true){
+			System.out.println("adicionar aluno" + "\n" + "quantidade de alunos" + "\n" + "nome dos alunos" + "\n" + "idade dos alunos" + "\n" + "remover aluno");
+			String Line = scanner.nextLine();
+			String[] vet = Line.split(" ");
+			if (vet[0].equals("adicionar") && vet[1].equals("aluno"))
+				aluno = new Aluno(vet[2], Integer.parseInt(vet[3]));
+			else if (vet[0].equals("status"))
+				Aluno.status();
+		}
+	}
+}

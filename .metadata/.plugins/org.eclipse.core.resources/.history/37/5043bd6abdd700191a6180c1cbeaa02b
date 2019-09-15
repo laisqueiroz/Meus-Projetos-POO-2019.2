@@ -1,0 +1,17 @@
+package saladeaula;
+
+import java.util.Scanner;
+
+public class Sala {
+	
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		String Line = scanner.nextLine();
+		String[] vet = Line.split(" ");
+		
+		
+		Aluno lais = new Aluno();
+		Aluno lays = new Aluno("Lays", 19);
+		
+	}
+}

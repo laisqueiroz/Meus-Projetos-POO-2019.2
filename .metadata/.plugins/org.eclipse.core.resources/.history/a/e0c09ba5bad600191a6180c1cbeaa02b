@@ -1,0 +1,42 @@
+package saladeaula;
+
+import java.util.ArrayList;
+
+public class Sala {
+	public static ArrayList<Integer> iddd = new ArrayList<Integer>();
+	
+	private String nome;
+	private int idade;
+	static int nextId = 0;
+	private int id;
+	
+	
+	public Sala (){
+		this.nome = null;
+		this.idade = 0;
+		this.id = nextId;
+		nextId++;
+		iddd.add(idade);
+		
+	}
+	public Sala (String name, int idd){
+		this.nome = name;
+		this.idade = idd;
+		this.id = nextId;
+		nextId++;
+		iddd.add(idade);
+	}
+	
+	public static void statusSala(ArrayList<Integer> array){
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		Sala lais = new Sala();
+		statusSala();
+		Sala gabriel = new Sala ("Gabriel" , 15);
+		statusSala();
+	}
+
+}
