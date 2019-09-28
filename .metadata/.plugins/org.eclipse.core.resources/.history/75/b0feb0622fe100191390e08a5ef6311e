@@ -1,0 +1,11 @@
+package Trabalho;
+
+public class Controle {
+
+	public static void main(String[] args) {
+		Topic zona = new Topic(10, 2);
+		zona.embarcar(new Pass("José", 62, "2222"), 62, 1);
+		System.out.println(zona);
+	}
+
+}

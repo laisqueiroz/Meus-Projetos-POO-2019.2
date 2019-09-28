@@ -1,0 +1,44 @@
+package Trabalho;
+
+import java.util.ArrayList;
+
+public class Topic {
+	ArrayList<Pass> poltronas;
+	int qnt;
+	int poltronaPref;
+	int idadePref = 60;
+	public Topic(int qnt, int pref) {
+		super();
+		poltronas = new ArrayList<Pass>();
+		for (int i = 0; i < qnt; i++)
+			poltronas.add(null);
+		this.qnt = qnt;
+		this.poltronaPref = pref;
+	}
+	
+	public void embarcar(Pass passageiro, int idade, int pos){
+		if (idade >= idadePref){
+			poltronas.set(pos, passageiro);
+		}
+		poltronas.set(pos, passageiro);
+	}
+	@Override
+	public String toString() {
+		String inicio = "| ";
+		for (int i = 0 ; i < poltronas.size(); i++){	
+			if(i < poltronaPref){
+				inicio += "@ ";
+			}
+			else if(poltronas.get(i) != null){
+				inicio += poltronas.get(i) + " ";
+			}
+			else{
+				inicio += "= ";
+			}
+		}
+		inicio += "|";
+		return inicio;
+	}
+
+
+}

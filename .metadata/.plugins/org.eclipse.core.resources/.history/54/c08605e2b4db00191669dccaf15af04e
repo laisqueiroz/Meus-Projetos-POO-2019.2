@@ -1,0 +1,36 @@
+package herança;
+
+class Unicornio{
+	protected String nome;
+	protected int poder;
+	public Unicornio(String name){
+		this.nome = name;
+		this.poder = 0;
+	}
+	public String toString() {
+		return "Unicornio : nome = " + nome + ", poder = " + poder ;
+	}
+	
+	
+}
+
+class UnicornioMagico extends Unicornio{
+
+	public UnicornioMagico(String name) {
+		super(name);
+		this.poder = 100;
+	}
+	public String toString(){
+		
+	}
+	
+}
+
+public class Controle {
+	public static void main(String[] args) {
+		Unicornio uni = new Unicornio("Uni");
+		UnicornioMagico pony = new UnicornioMagico("Pony");
+		System.out.println(uni);
+	}
+
+}

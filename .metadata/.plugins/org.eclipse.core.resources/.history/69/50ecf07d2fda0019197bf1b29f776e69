@@ -1,0 +1,56 @@
+package trab3;
+
+import java.util.ArrayList;
+
+public class Assistente {
+	private int volume;
+	private int musica;
+	private boolean tocando = false;
+	private boolean ligado = false;
+	
+	static ArrayList<String> musicas = new ArrayList<String>(){
+		private static final long serialVersionUID = 1L;
+
+		{
+			add("Hunnybee - Unknow Mortal Orchestra." );
+			add("Chinese New Year - SALES");
+			add("Floating (feat. 21 savage) - ScHoolboyQ");
+			add("Money trees (feat. Jay Rock) - Kendrick Lamar");
+		}
+	};
+	
+	public int getVolume() {
+		return volume;
+	}
+	public void setVolume(int vol) {
+		this.volume = vol;
+	}
+	
+	public int getMusica() {
+		return musica;
+	}
+	public void setMusica(int msc) {
+		this.musica = msc;
+	}
+	
+	public boolean isTocando() {
+		return tocando;
+	}
+	public void setTocando(boolean toc) {
+		this.tocando = toc;
+	}
+	
+	public boolean isLigado() {
+		return ligado;
+	}
+	public void setLigado(boolean ligado) {
+		this.ligado = ligado;
+	}
+	
+	static void status(){
+		for (String elem : musicas){
+			System.out.println(elem);
+		}
+	}
+	
+}
