@@ -1,0 +1,80 @@
+package agencia;
+
+import java.util.ArrayList;
+
+public class Banco {
+
+    private ArrayList<Cliente> clientes;
+    private ArrayList<Conta> contas;
+
+    public Banco() {
+        clientes = new ArrayList<Cliente>();
+        contas = new ArrayList<Conta>();
+
+    }
+
+    public void adicionarCliente(String clt) {
+        for (Cliente c : clientes) {
+            if (c.getNome().equals(clt)) {
+                System.out.println("Cliente já existe");
+                return;
+            }
+        }
+        Cliente cliente = new Cliente(clt);
+        Conta cc = new ContaCorrente(clt);
+        Conta cp = new ContaPolp(clt);
+        this.clientes.add(cliente);
+        cliente.addConta(cc);
+        cliente.addConta(cp);
+        this.contas.add(cc);
+        this.contas.add(cp);
+    }
+    
+    public void status() {
+        for (Conta cnt : contas) {
+            System.out.println(cnt.getId() + ":" + cnt.getNome() + ":" + cnt.getSaldo() + ":" + cnt.getTipo());
+        }
+    }
+    
+    public void depositar(int ind, double valor){
+        for (Conta cnt : contas){
+            if(ind == cnt.getId()){
+                cnt.setSaldo(cnt.getSaldo()+valor);
+                return;
+            }
+        }
+        System.out.println("Conta não encontrada");
+    }
+    
+    public boolean sacar(int ind, double valor){
+        for (Conta cnt : contas){
+            if(valor <= cnt.getSaldo() && ind == cnt.getId()){
+                cnt.setSaldo(cnt.getSaldo()-valor);
+                return true;
+            }
+            else if(valor > cnt.getSaldo() && ind == cnt.getId()){
+                System.out.println("Saldo insuficiente!");
+                return false;
+            }
+        }
+        System.out.println("Conta Não encontrada");
+        return false;
+    }
+    
+    public void tranferir(int ind1, int ind2, double valor){
+        if(this.sacar(ind1, valor)){
+            this.depositar(ind2, valor);
+        }
+    }
+    public void update(){
+        for (Conta cnt : contas){
+            if(cnt.getTipo().equals("CC")){
+                cnt.setSaldo(cnt.getSaldo()-20);
+            }
+            else{
+                cnt.setSaldo(cnt.getSaldo()+(cnt.getSaldo()*0.01));
+            }
+        }
+    }
+    
+}

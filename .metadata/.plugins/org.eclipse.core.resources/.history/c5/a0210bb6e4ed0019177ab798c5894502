@@ -1,0 +1,19 @@
+package agencia;
+
+public class ContaCorrente extends Conta {
+
+	public ContaCorrente(int nextId, Cliente clt) {
+	}
+
+	@Override
+	String getTipo() {
+		return "CC";
+	}
+
+	@Override
+	void update() {
+		this.setSaldo(this.getSaldo() - 20);
+		
+	}
+
+}

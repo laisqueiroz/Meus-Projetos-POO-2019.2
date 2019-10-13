@@ -1,0 +1,18 @@
+package agencia;
+
+public abstract class Conta {
+	private double saldo;
+	private int id;
+	private Cliente cliente;
+	
+	abstract String getTipo();
+	
+	abstract void update();
+	
+	@Override
+	public String toString() {
+		return this.id + ":" + this.cliente.id + ":" + this.saldo + ":" + this.getTipo();
+	}
+	
+
+}

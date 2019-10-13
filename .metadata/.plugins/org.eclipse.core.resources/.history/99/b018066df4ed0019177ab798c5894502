@@ -1,0 +1,14 @@
+package agencia;
+
+public class ContaPolp extends Conta {
+
+    public ContaPolp(String nome) {
+        this.setId(nextId);
+        this.setNome(nome);
+        this.setSaldo(getSaldo());
+        this.setTipo("CP");
+        nextId++;
+
+    }
+
+}

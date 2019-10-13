@@ -21,12 +21,13 @@ public class Topic {
 	}
 
 	public void embarcar(Pass passageiro, int idade) {
+		contador = 0;
 		for (int i = 0; i < this.poltronas.size(); i++ ){
 			if (poltronas.get(i) != null){
 				contador ++;
 			}
 		}
-		if (contador == 10){
+		if (contador == 9){
 			System.out.println("Lotado");
 		}
 		else if (idade >= 60){
@@ -43,7 +44,7 @@ public class Topic {
 				}
 			}
 		}
-		if (idade < 60){
+		else if (idade < 60){
 			for (int i = 0; i < this.poltronas.size(); i++){
 				if(this.poltronas.get(i) == null && i > 2){
 					poltronas.set(i, passageiro);

@@ -1,0 +1,19 @@
+package agencia;
+
+public class ContaPolp extends Conta {
+
+	public ContaPolp(int nextId, Cliente clt) {
+	}
+
+	@Override
+	String getTipo() {
+		return "CP";
+	}
+
+	@Override
+	void update() {
+		this.setSaldo(getSaldo() * 0.001);
+		
+	}
+
+}

@@ -1,0 +1,43 @@
+package agencia;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Controller {
+
+    public static void main(String[] args) {
+        Banco TMP = new Banco();
+        TMP.adicionarCliente("Lais");
+        TMP.adicionarCliente("Alguem");
+        TMP.status();
+        /*Scanner scan = new Scanner(System.in);
+        while (true) {
+            String lista = scan.nextLine();
+            String vet[] = lista.split(" ");
+            if (vet[0].equals("adicionar cliente")) {
+                TMP.adicionarCliente(vet[1]);
+                case "deposito":
+                    TMP.deposito(Integer.parseInt(vet[1]), Double.parseDouble(vet[2]));
+                    break;
+                case "saque":
+                    TMP.saque(Integer.parseInt(vet[1]), Double.parseDouble(vet[2]));
+                    break;
+                case "show":
+                    TMP.show();
+                    break;
+                case "transf":
+                    TMP.transf(Integer.parseInt(vet[1]), Integer.parseInt(vet[2]), Double.parseDouble(vet[3]));
+                    break;
+                case "update":
+                    TMP.update();
+                    break;
+                case "end":
+                    System.exit(0);
+                    break;
+                default:
+                    System.out.println("Comando inválido!");
+                    break;
+            }
+        }*/
+    }
+}

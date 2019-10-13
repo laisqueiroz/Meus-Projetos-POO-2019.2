@@ -1,0 +1,27 @@
+package agencia;
+
+public class Cliente {
+	private String id;
+	
+	public Cliente(String id) {
+		super();
+		this.id = id;
+	}
+	public String getId() {
+		return id;
+	}
+	
+	public void setId(String id) {
+		this.id = id;
+	}
+	public void addConta(Conta novaConta) {
+		
+	}
+	@Override
+	public String toString() {
+		return this.id;
+	}
+	
+	
+	
+}

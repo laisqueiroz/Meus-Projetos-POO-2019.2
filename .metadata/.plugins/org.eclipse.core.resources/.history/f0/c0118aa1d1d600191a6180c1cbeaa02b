@@ -1,7 +1,0 @@
-package saladeaula;
-
-public class Sala {
-	Aluno lais = new Aluno();
-	Aluno lays = new Aluno("Lays", 19);
-	
-}
