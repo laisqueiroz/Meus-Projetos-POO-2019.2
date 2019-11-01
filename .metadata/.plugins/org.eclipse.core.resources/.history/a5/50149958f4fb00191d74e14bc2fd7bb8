@@ -1,0 +1,24 @@
+package trabalho;
+
+import java.util.Scanner;
+
+public class Controller {
+
+	
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		User u = new User(null);
+		
+		while (true) {
+			String line = scan.nextLine();
+			String vet[] = line.split(" ");
+			switch (vet[0]) {
+			case "show":
+				System.out.println(u);
+				break;
+			case "addUser":
+				u.criarConta(vet[1]);
+			}
+		}
+	}
+}

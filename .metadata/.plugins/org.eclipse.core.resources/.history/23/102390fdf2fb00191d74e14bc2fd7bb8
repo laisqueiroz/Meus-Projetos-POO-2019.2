@@ -1,0 +1,12 @@
+package trabalho;
+
+public class Controller {
+
+	
+	public static void main(String[] args) {
+		User lais = new User("lais");
+		System.out.println(lais);
+
+	}
+
+}

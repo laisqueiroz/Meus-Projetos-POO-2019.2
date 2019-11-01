@@ -1,0 +1,34 @@
+package Pitolomeu;
+
+public class Agiota {
+	double dinheiro;
+	Cliente clientes;
+	Map<String , Double> 
+	
+	public Agiota(double dinheiro) {
+		super();
+		this.dinheiro = dinheiro;
+	}
+	
+	void transação(){
+		
+	}
+	
+	void receberDinheiro(){
+		
+	}
+	
+	void matarCliente(){
+		
+	}
+	
+	void historicoTrans(){
+		
+	}
+	
+	void mostrarCliente(){
+		
+	}
+	
+	
+}

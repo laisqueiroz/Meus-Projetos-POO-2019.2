@@ -1,0 +1,84 @@
+package trabalho;
+
+import java.util.ArrayList;
+import java.util.Map;
+import java.util.TreeMap;
+
+public class User {
+	String id;
+	Map<String, User> seguindo;
+	Map<String, User> seguidores;
+	ArrayList<String> timeline;
+	
+	public User(String id) {
+		super();
+		this.id = id;
+		criarConta(id);
+	}
+	
+	public String getId() {
+		return id;
+	}
+
+
+
+	public void setId(String id) {
+		this.id = id;
+	}
+
+
+
+	public Map<String, User> getSeguindo() {
+		return seguindo;
+	}
+
+
+
+	public void setSeguindo(Map<String, User> seguindo) {
+		this.seguindo = seguindo;
+	}
+
+
+
+	public Map<String, User> getSeguidores() {
+		return seguidores;
+	}
+
+
+
+	public void setSeguidores(Map<String, User> seguidores) {
+		this.seguidores = seguidores;
+	}
+
+
+
+	public ArrayList<String> getTimeline() {
+		return timeline;
+	}
+
+
+
+	public void setTimeline(ArrayList<String> timeline) {
+		this.timeline = timeline;
+	}
+
+
+
+	public void criarConta(String id){
+		seguindo = new TreeMap<String, User>();
+		seguidores = new TreeMap<String, User>();
+	}
+	
+	
+	
+	@Override
+	public String toString() {
+		return "User [id=" + getId() + ", seguindo=" + getSeguindo() + ", seguidores="
+				+ getSeguidores() +"]";
+	}
+s
+	public void status(){
+		getId();
+	}
+	
+}

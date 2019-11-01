@@ -1,0 +1,18 @@
+package trabalho;
+
+import java.util.Map;
+
+public class User {
+	String id;
+	Map<String, User> seguindo;
+	Map<String, User> seguidores;
+	Map<String, Tweet> timeline;
+	
+	public User(String id) {
+		super();
+		this.id = id;
+	}
+	
+	
+	
+}

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="13" version="2.0">
+<workbench progressCount="18" version="2.0">
 <workbenchAdvisor/>
 <window height="744" maximized="true" width="1024" x="0" y="24">
 <fastViewData fastViewLocation="1024"/>
@@ -30,12 +30,37 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Topic.java" partName="Topic.java" path="/home/lais/Documentos/UFC/POO/REPOSITÓRIO /Meus-Projetos-POO-2019.2/trabalho4topic/src/Trabalho/Topic.java" title="Topic.java" tooltip="trabalho4topic/src/Trabalho/Topic.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/trabalho4topic/src/Trabalho/Topic.java"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Controller.java" partName="Controller.java" path="/home/lais/Documentos/UFC/POO/REPOSITÓRIO /Meus-Projetos-POO-2019.2/agiotagentefina/src/Pitolomeu/Controller.java" title="Controller.java" tooltip="agiotagentefina/src/Pitolomeu/Controller.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/agiotagentefina/src/Pitolomeu/Controller.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="91" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Cliente.java" partName="Cliente.java" path="/home/lais/Documentos/UFC/POO/REPOSITÓRIO /Meus-Projetos-POO-2019.2/agiotagentefina/src/Pitolomeu/Cliente.java" title="Cliente.java" tooltip="agiotagentefina/src/Pitolomeu/Cliente.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/agiotagentefina/src/Pitolomeu/Cliente.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="640" selectionTopPixel="103"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Agiota.java" partName="Agiota.java" path="/home/lais/Documentos/UFC/POO/REPOSITÓRIO /Meus-Projetos-POO-2019.2/agiotagentefina/src/Pitolomeu/Agiota.java" title="Agiota.java" tooltip="agiotagentefina/src/Pitolomeu/Agiota.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/agiotagentefina/src/Pitolomeu/Agiota.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="41" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Cliente.java" partName="Cliente.java" path="/home/lais/Documentos/UFC/POO/REPOSITÓRIO /Meus-Projetos-POO-2019.2/s9aula1/src/s9aula1/Cliente.java" title="Cliente.java" tooltip="s9aula1/src/s9aula1/Cliente.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/s9aula1/src/s9aula1/Cliente.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Agencia.java" partName="Agencia.java" path="/home/lais/Documentos/UFC/POO/REPOSITÓRIO /Meus-Projetos-POO-2019.2/s9aula1/src/s9aula1/Agencia.java" title="Agencia.java" tooltip="s9aula1/src/s9aula1/Agencia.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/s9aula1/src/s9aula1/Agencia.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Cliente.java" partName="Cliente.java" path="/home/lais/Documentos/UFC/POO/REPOSITÓRIO /Meus-Projetos-POO-2019.2/agencia/src/agencia/Cliente.java" title="Cliente.java" tooltip="agencia/src/agencia/Cliente.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/agencia/src/agencia/Cliente.java"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
 </editors>
@@ -72,6 +97,10 @@
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<expanded>
+<category IMemento.internal.id="Errors"/>
+<category IMemento.internal.id="Warnings"/>
+</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="105" org.eclipse.ui.ide.markerType="310" org.eclipse.ui.ide.pathField="140" org.eclipse.ui.ide.resourceField="105" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -168,7 +197,7 @@
 </mainWindow>
 </layout>
 </perspective>
-<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<perspective editorAreaTrimState="1" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
 <alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
@@ -218,25 +247,36 @@
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <hide_toolbar_item_id id="org.eclipse.debug.ui.commands.RunToLine"/>
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
-<view id="org.eclipse.jdt.ui.PackageExplorer"/>
-<view id="org.eclipse.ui.views.ProblemView"/>
-<view id="org.eclipse.jdt.ui.JavadocView"/>
-<view id="org.eclipse.jdt.ui.SourceView"/>
-<view id="org.eclipse.ui.console.ConsoleView"/>
-<view id="org.eclipse.ui.views.ContentOutline"/>
-<fastViewBars/>
+<fastViewBars>
+<fastViewBar fastViewLocation="16384" id="left" orientation="512" selectedTabId="org.eclipse.jdt.ui.PackageExplorer" style="1">
+<fastViews>
+<view id="org.eclipse.jdt.ui.PackageExplorer" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+<fastViewBar fastViewLocation="131072" id="bottom" orientation="256" selectedTabId="org.eclipse.ui.console.ConsoleView" style="1">
+<fastViews>
+<view id="org.eclipse.ui.views.ProblemView" ratio="0.3"/>
+<view id="org.eclipse.jdt.ui.JavadocView" ratio="0.3"/>
+<view id="org.eclipse.jdt.ui.SourceView" ratio="0.3"/>
+<view id="org.eclipse.ui.console.ConsoleView" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+<fastViewBar fastViewLocation="131072" id="right" orientation="512" selectedTabId="org.eclipse.ui.views.ContentOutline" style="1">
+<fastViews>
+<view id="org.eclipse.ui.views.ContentOutline" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+</fastViewBars>
 <layout>
 <mainWindow>
 <info folder="true" part="left">
-<folder activePageID="org.eclipse.jdt.ui.PackageExplorer" appearance="2" expanded="2">
-<page content="org.eclipse.jdt.ui.PackageExplorer" label="Package Explorer"/>
+<folder appearance="2" expanded="0">
+<page content="org.eclipse.jdt.ui.PackageExplorer" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.junit.ResultView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info folder="true" part="stickyFolderRight" ratio="0.7496318" ratioLeft="1018" ratioRight="340" relationship="2" relative="left">
@@ -248,30 +288,23 @@
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.2496318" ratioLeft="339" ratioRight="1019" relationship="2" relative="left"/>
 <info folder="true" part="bottom" ratio="0.7488789" ratioLeft="501" ratioRight="168" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
-<page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
-<page content="org.eclipse.jdt.ui.SourceView" label="Declaration"/>
-<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<folder appearance="2" expanded="0">
+<page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.JavadocView" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.SourceView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
 <page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-<part id="1"/>
-<part id="2"/>
-<part id="3"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info folder="true" part="right" ratio="0.74975467" ratioLeft="764" ratioRight="255" relationship="2" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<folder appearance="2" expanded="0">
+<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
 <page content="org.eclipse.ui.texteditor.TemplatesView" label="LabelNotFound"/>
 <page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 </mainWindow>
@@ -281,162 +314,163 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/projeto3/src/saladeaula/Sala.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/projeto3/src/saladeaula/Aluno.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/projeto3/src/saladeaula/Aluno.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/s06a01/src/aulapratica/Treino.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/projeto3/src/saladeaula/Aluno.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/trabalho4topic/src/Trabalho/Topic.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/agiotagentefina/src/Pitolomeu/Cliente.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/agiotagentefina/src/Pitolomeu/Agiota.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/agiotagentefina/src/Pitolomeu/Controller.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/agiotagentefina/src/Pitolomeu/Agiota.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/s9aula1/src/s9aula1/Cliente.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/s9aula1/src/s9aula1/Agencia.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/agencia/src/agencia/Cliente.java"/>
 </editors>
-<item historyLabel="Sala.java" index="0">
-<position info="not_deleted" x="1013" y="0"/>
+<item historyLabel="Agiota.java" index="1">
+<position info="not_deleted" x="179" y="0"/>
 </item>
-<item historyLabel="Sala.java" index="0">
-<position info="not_deleted" x="733" y="0"/>
+<item historyLabel="Agiota.java" index="1">
+<position info="not_deleted" x="179" y="0"/>
 </item>
-<item historyLabel="Sala.java" index="0">
-<position info="not_deleted" x="761" y="0"/>
+<item historyLabel="Cliente.java" index="0">
+<position info="not_deleted" x="316" y="0"/>
 </item>
-<item historyLabel="Sala.java" index="0">
-<position info="not_deleted" x="1013" y="0"/>
+<item historyLabel="Cliente.java" index="0">
+<position info="not_deleted" x="195" y="0"/>
 </item>
-<item historyLabel="Sala.java" index="0">
-<position info="not_deleted" x="862" y="0"/>
+<item historyLabel="Cliente.java" index="0">
+<position info="not_deleted" x="175" y="0"/>
 </item>
-<item historyLabel="Sala.java" index="0">
-<position info="not_deleted" x="834" y="0"/>
+<item historyLabel="Cliente.java" index="0">
+<position info="not_deleted" x="211" y="0"/>
 </item>
-<item historyLabel="Sala.java" index="0">
-<position info="not_deleted" x="862" y="0"/>
+<item historyLabel="Cliente.java" index="0">
+<position info="not_deleted" x="237" y="0"/>
 </item>
-<item historyLabel="Sala.java" index="0">
-<position info="not_deleted" x="1011" y="0"/>
+<item historyLabel="Cliente.java" index="0">
+<position info="not_deleted" x="283" y="0"/>
 </item>
-<item historyLabel="Sala.java" index="0">
-<position info="not_deleted" x="1011" y="0"/>
+<item historyLabel="Controller.java" index="2">
+<position info="not_deleted" x="91" y="0"/>
 </item>
-<item historyLabel="Aluno.java" index="1">
-<position info="not_deleted" x="468" y="0"/>
+<item historyLabel="Cliente.java" index="0">
+<position info="not_deleted" x="637" y="0"/>
 </item>
-<item historyLabel="Aluno.java" index="1">
-<position info="not_deleted" x="745" y="0"/>
+<item historyLabel="Agiota.java" index="3">
+<position info="not_deleted" x="180" y="0"/>
 </item>
-<item historyLabel="Aluno.java" index="1">
-<position info="not_deleted" x="817" y="0"/>
+<item historyLabel="Agiota.java" index="3">
+<position info="not_deleted" x="109" y="0"/>
 </item>
-<item historyLabel="Sala.java" index="0">
-<position info="not_deleted" x="1011" y="0"/>
+<item historyLabel="Agiota.java" index="3">
+<position info="not_deleted" x="109" y="0"/>
 </item>
-<item historyLabel="Aluno.java" index="1">
-<position info="not_deleted" x="817" y="0"/>
+<item historyLabel="Agiota.java" index="3">
+<position info="not_deleted" x="107" y="0"/>
 </item>
-<item historyLabel="Sala.java" index="0">
-<position info="not_deleted" x="1011" y="0"/>
+<item historyLabel="Controller.java" index="2">
+<position info="not_deleted" x="91" y="0"/>
 </item>
-<item historyLabel="Aluno.java" index="1">
-<position info="not_deleted" x="724" y="0"/>
+<item historyLabel="Controller.java" index="2">
+<position info="not_deleted" x="91" y="0"/>
 </item>
-<item historyLabel="Sala.java" index="0">
-<position info="not_deleted" x="1011" y="0"/>
+<item historyLabel="Cliente.java" index="0">
+<position info="not_deleted" x="544" y="0"/>
 </item>
-<item historyLabel="Aluno.java" index="2">
-<position info="not_deleted" x="1" y="0"/>
+<item historyLabel="Controller.java" index="2">
+<position info="not_deleted" x="91" y="0"/>
 </item>
-<item historyLabel="Sala.java" index="0">
-<position info="not_deleted" x="1088" y="0"/>
+<item historyLabel="Controller.java" index="2">
+<position info="not_deleted" x="91" y="0"/>
 </item>
-<item historyLabel="Sala.java" index="0">
-<position info="not_deleted" x="371" y="0"/>
+<item historyLabel="Cliente.java" index="0">
+<position info="not_deleted" x="544" y="0"/>
 </item>
-<item historyLabel="Sala.java" index="0">
-<position info="not_deleted" x="1082" y="0"/>
+<item historyLabel="Controller.java" index="2">
+<position info="not_deleted" x="91" y="0"/>
 </item>
-<item historyLabel="Sala.java" index="0">
-<position info="not_deleted" x="1055" y="0"/>
-</item>
-<item historyLabel="Sala.java" index="0">
-<position info="not_deleted" x="1082" y="0"/>
-</item>
-<item historyLabel="Sala.java" index="0">
-<position info="not_deleted" x="1088" y="0"/>
-</item>
-<item historyLabel="Aluno.java" index="2">
-<position info="not_deleted" x="1" y="0"/>
-</item>
-<item historyLabel="Aluno.java" index="2">
-<position info="not_deleted" x="848" y="0"/>
-</item>
-<item historyLabel="Aluno.java" index="2">
-<position info="not_deleted" x="913" y="0"/>
-</item>
-<item historyLabel="Aluno.java" index="2">
-<position info="not_deleted" x="913" y="0"/>
-</item>
-<item historyLabel="Treino.java" index="3">
-<position info="not_deleted" x="110" y="24"/>
-</item>
-<item historyLabel="Sala.java" index="0">
-<position info="not_deleted" x="1088" y="0"/>
-</item>
-<item historyLabel="Aluno.java" index="2">
-<position info="not_deleted" x="1015" y="0"/>
-</item>
-<item historyLabel="Sala.java" index="0">
-<position info="not_deleted" x="1088" y="0"/>
-</item>
-<item historyLabel="Aluno.java" index="2">
-<position info="not_deleted" x="1015" y="0"/>
-</item>
-<item historyLabel="Aluno.java" index="2">
-<position info="not_deleted" x="913" y="0"/>
-</item>
-<item historyLabel="Treino.java" index="3">
-<position info="not_deleted" x="139" y="90"/>
-</item>
-<item historyLabel="Aluno.java" index="2">
-<position info="not_deleted" x="913" y="0"/>
-</item>
-<item historyLabel="Sala.java" index="0">
-<position info="not_deleted" x="809" y="0"/>
-</item>
-<item historyLabel="Aluno.java" index="2">
-<position info="not_deleted" x="913" y="0"/>
-</item>
-<item historyLabel="Sala.java" index="0">
-<position info="not_deleted" x="809" y="0"/>
-</item>
-<item historyLabel="Aluno.java" index="4">
-<position info="not_deleted" x="913" y="0"/>
-</item>
-<item historyLabel="Sala.java" index="0">
-<position info="not_deleted" x="1086" y="0"/>
-</item>
-<item historyLabel="Aluno.java" index="4">
-<position info="not_deleted" x="913" y="0"/>
-</item>
-<item historyLabel="Aluno.java" index="4">
-<position info="not_deleted" x="951" y="0"/>
-</item>
-<item historyLabel="Aluno.java" index="4">
+<item historyLabel="Controller.java" index="2">
 <position/>
 </item>
-<item historyLabel="Aluno.java" index="4">
-<position info="not_deleted" x="975" y="0"/>
+<item historyLabel="Cliente.java" index="0">
+<position info="not_deleted" x="544" y="0"/>
 </item>
-<item historyLabel="Aluno.java" index="4">
-<position info="not_deleted" x="956" y="0"/>
+<item historyLabel="Controller.java" index="2">
+<position/>
 </item>
-<item historyLabel="Aluno.java" index="4">
-<position info="not_deleted" x="971" y="0"/>
+<item historyLabel="Controller.java" index="2">
+<position/>
 </item>
-<item historyLabel="Sala.java" index="0">
-<position info="not_deleted" x="1125" y="0"/>
+<item historyLabel="Controller.java" index="2">
+<position/>
 </item>
-<item historyLabel="Aluno.java" index="4">
-<position info="not_deleted" x="1087" y="0"/>
+<item historyLabel="Controller.java" index="2">
+<position info="not_deleted" x="91" y="0"/>
 </item>
-<item active="true" historyLabel="Topic.java" index="5">
+<item historyLabel="Controller.java" index="2">
+<position info="not_deleted" x="91" y="0"/>
+</item>
+<item historyLabel="Agiota.java" index="3">
+<position info="not_deleted" x="212" y="0"/>
+</item>
+<item historyLabel="Controller.java" index="2">
+<position info="not_deleted" x="91" y="0"/>
+</item>
+<item historyLabel="Agiota.java" index="3">
+<position info="not_deleted" x="278" y="0"/>
+</item>
+<item historyLabel="Controller.java" index="2">
+<position info="not_deleted" x="91" y="0"/>
+</item>
+<item historyLabel="Agiota.java" index="3">
+<position info="not_deleted" x="41" y="0"/>
+</item>
+<item historyLabel="Cliente.java" index="0">
+<position info="not_deleted" x="544" y="0"/>
+</item>
+<item historyLabel="Cliente.java" index="0">
+<position info="not_deleted" x="161" y="0"/>
+</item>
+<item historyLabel="Cliente.java" index="0">
+<position info="not_deleted" x="584" y="0"/>
+</item>
+<item historyLabel="Cliente.java" index="4">
 <position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Agencia.java" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Cliente.java" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Cliente.java" index="0">
+<position info="not_deleted" x="584" y="0"/>
+</item>
+<item historyLabel="Cliente.java" index="0">
+<position info="not_deleted" x="318" y="0"/>
+</item>
+<item historyLabel="Cliente.java" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Cliente.java" index="0">
+<position info="not_deleted" x="318" y="0"/>
+</item>
+<item historyLabel="Cliente.java" index="0">
+<position info="not_deleted" x="198" y="0"/>
+</item>
+<item historyLabel="Cliente.java" index="0">
+<position info="not_deleted" x="200" y="0"/>
+</item>
+<item historyLabel="Cliente.java" index="0">
+<position info="not_deleted" x="271" y="0"/>
+</item>
+<item historyLabel="Cliente.java" index="0">
+<position info="not_deleted" x="270" y="0"/>
+</item>
+<item historyLabel="Cliente.java" index="0">
+<position info="not_deleted" x="318" y="0"/>
+</item>
+<item historyLabel="Cliente.java" index="0">
+<position/>
+</item>
+<item active="true" historyLabel="Cliente.java" index="0">
+<position/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -462,6 +496,30 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Cliente.java" tooltip="agencia/src/agencia/Cliente.java">
+<persistable path="/agencia/src/agencia/Cliente.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Agencia.java" tooltip="s9aula1/src/s9aula1/Agencia.java">
+<persistable path="/s9aula1/src/s9aula1/Agencia.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Cliente.java" tooltip="s9aula1/src/s9aula1/Cliente.java">
+<persistable path="/s9aula1/src/s9aula1/Cliente.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Banco.java" tooltip="agencia/src/agencia/Banco.java">
+<persistable path="/agencia/src/agencia/Banco.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Controller.java" tooltip="agencia/src/agencia/Controller.java">
+<persistable path="/agencia/src/agencia/Controller.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Agiota.java" tooltip="agiotagentefina/src/Pitolomeu/Agiota.java">
+<persistable path="/agiotagentefina/src/Pitolomeu/Agiota.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Cliente.java" tooltip="agiotagentefina/src/Pitolomeu/Cliente.java">
+<persistable path="/agiotagentefina/src/Pitolomeu/Cliente.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Controller.java" tooltip="agiotagentefina/src/Pitolomeu/Controller.java">
+<persistable path="/agiotagentefina/src/Pitolomeu/Controller.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Topic.java" tooltip="trabalho4topic/src/Trabalho/Topic.java">
 <persistable path="/trabalho4topic/src/Trabalho/Topic.java"/>
 </file>

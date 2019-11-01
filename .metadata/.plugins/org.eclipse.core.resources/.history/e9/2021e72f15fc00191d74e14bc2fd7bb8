@@ -1,0 +1,15 @@
+package trabalho;
+
+public class Superior extends User{
+	public void seguir(String quemSeguindo, String quem){
+		for (String s : usuarios){
+				
+			if (s == null)
+					throw new RuntimeException(id + "nao existe");
+				
+			else
+				seguindo.put(quemSeguindo, quem);
+				seguidores.put(quemSeguindo, quem);
+			}
+	}
+}

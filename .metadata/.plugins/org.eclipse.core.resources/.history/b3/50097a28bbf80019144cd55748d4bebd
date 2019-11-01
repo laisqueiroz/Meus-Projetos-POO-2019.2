@@ -1,0 +1,12 @@
+package Pitolomeu;
+
+public class Controller {
+
+	public static void main(String[] args) {
+		Agiota teste = new Agiota(500);
+		Cliente lais = new Cliente();
+		lais.addCliente("orana", "Lais");
+		System.out.println(lais);
+	}
+
+}

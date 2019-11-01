@@ -1,0 +1,101 @@
+package trabalho;
+
+import java.util.ArrayList;
+import java.util.Map;
+import java.util.TreeMap;
+
+class Reposit<T>{
+	public Map<String, T> usuarios;
+}
+
+public class User {
+	String id;
+	Map<String, User> seguindo;
+	Map<String, User> seguidores;
+	ArrayList<String> timeline;
+	ArrayList<String>  usuarios;
+	
+	public User(String id) {
+		super();
+		this.id = id;
+		criarConta(id);
+	}
+	
+	public User(){
+		this.id = null;
+	}
+	
+	public String getId() {
+		return id;
+	}
+
+
+
+	public void setId(String id) {
+		this.id = id;
+	}
+
+
+
+	public Map<String, User> getSeguindo() {
+		return seguindo;
+	}
+
+
+
+	public void setSeguindo(Map<String, User> seguindo) {
+		this.seguindo = seguindo;
+	}
+
+
+
+	public Map<String, User> getSeguidores() {
+		return seguidores;
+	}
+
+
+
+	public void setSeguidores(Map<String, User> seguidores) {
+		this.seguidores = seguidores;
+	}
+
+
+
+	public ArrayList<String> getTimeline() {
+		return timeline;
+	}
+
+
+
+	public void setTimeline(ArrayList<String> timeline) {
+		this.timeline = timeline;
+	}
+
+
+
+	public void criarConta(String id){
+		//usuarios.add(id);
+		
+		seguindo = new TreeMap<String, User>();
+		seguidores = new TreeMap<String, User>();
+	}
+	
+	public void seguir(String id){
+		for (String s : usuarios){
+				
+			if (s == null)
+					throw new RuntimeException(id + "nao existe");
+				
+			else
+				seguindo.put(id, null);
+			}
+		}
+	
+	@Override
+	public String toString() {
+		return "" + getId() + "\n" + "  seguindo " + getSeguindo() + "\n" + "  seguidores "
+				+ getSeguidores();
+	}
+
+	
+}
