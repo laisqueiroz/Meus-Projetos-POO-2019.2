@@ -33,6 +33,7 @@ public class Cachorrinho {
 			else if (vet[0].equals("sair"))
 				break;
 		}
+		scanner.close();
 	}
 }
 

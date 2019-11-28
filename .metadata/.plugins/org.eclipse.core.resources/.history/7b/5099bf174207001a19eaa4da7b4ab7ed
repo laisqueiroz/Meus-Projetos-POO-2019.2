@@ -1,0 +1,36 @@
+package trabalho;
+
+public class Zepzap {
+	Repositorio<String , User> usuarios;
+	Repositorio<User, String> grupos;
+	
+	public Zepzap(){
+		usuarios = new Repositorio<String, User>();
+		grupos = new Repositorio<User, String>();
+		
+	}
+	
+	
+	public void addUser(String nome){
+		usuarios.add(nome, new User(nome));
+	}
+	
+	public void criarGrupo(String nomeUser, String nomeGrupo){
+		if ()
+		grupos.add(nomeUser, nomeGrupo);
+	}
+	
+	public void addUserinGrupo(User nomeUser, String nomeGrupo){
+		
+	}
+	
+
+	
+	public String toString() {
+		String saida = "";
+		for(User usuario : this.usuarios.getAll())
+			saida += usuario + "\n";
+		return saida;
+	}
+
+}

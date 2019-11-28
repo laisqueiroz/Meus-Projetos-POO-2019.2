@@ -1,0 +1,12 @@
+package trabalho;
+
+public class Zepzap {
+	Repositorio<String , User> usuarios;
+	
+	
+	public void addUser(String nome){
+		usuarios.add(nome, new User(nome));
+	}
+
+
+}

@@ -1,0 +1,45 @@
+package trabalho;
+
+public class HihochimaENagazap {
+	Repositorio<String , User> usuarios;
+	Repositorio<User, String> grupos;
+	
+	public HihochimaENagazap(){
+		usuarios = new Repositorio<String, User>();
+		grupos = new Repositorio<User, String>();
+		
+	}
+	
+	
+	public void addUser(String nome){
+		usuarios.add(nome, new User(nome));
+	}
+	
+	public void criarGrupo(User nomeUser, String nomeGrupo){
+		if(grupos.exists(nomeUser.nome)){
+			return;
+		}else{
+			grupos.add(nomeUser, nomeGrupo);
+		}
+		
+	}
+	
+	public User getUser(String login) {
+		return usuarios.get(login);
+	}
+	
+	public void addUserinGrupo(User nomeUser, String nomeGrupo){
+		
+	}
+	
+	
+
+	
+	public String toString() {
+		String saida = "";
+		for(User usuario : this.usuarios.getAll())
+			saida += usuario + "\n";
+		return saida;
+	}
+
+}

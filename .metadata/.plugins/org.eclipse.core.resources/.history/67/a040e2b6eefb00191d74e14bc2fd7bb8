@@ -1,8 +1,0 @@
-package trabalho;
-
-import java.util.Map;
-
-public class Repositorio<T>{
-	public Map<String, T> usuarios;
-	
-}

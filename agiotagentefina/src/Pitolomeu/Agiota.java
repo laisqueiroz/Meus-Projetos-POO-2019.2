@@ -4,7 +4,7 @@ import java.util.Map;
 
 public class Agiota {
 	double saldoInicial;
-	Cliente clientes;
+	Repositorio<String nome, String Cliente> clientes;
 	
 	Agiota(double dinheiro) {
 		super();

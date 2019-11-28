@@ -1,0 +1,50 @@
+package trabalho;
+
+import java.util.ArrayList;
+
+
+public class Tweet {
+	
+	String idUsuario;
+    String msg;
+    int likes;
+
+    ArrayList<String> idLikadores; 
+
+    public String getMsg() {
+        return msg;
+    }
+
+    public void setMsg(String msg) {
+        this.msg = msg;
+    }
+
+    public String getIdUser() {
+        return idUsuario;
+    }
+
+    public void setIdUser(String idUser) {
+        this.idUsuario = idUser;
+    }
+
+    public Tweet(String idUser, String msg) {
+        this.idUsuario = idUser;
+        this.msg = msg;
+        this.likes = 0;
+        this.idLikadores = new ArrayList<String>();
+    }
+
+    @Override
+    public String toString() {
+        return msg + " / likes = " + likes + " /] " + idLikadores;
+    }
+
+	public int getLikes() {
+		return likes;
+	}
+
+	public void setLikes(int likes) {
+		this.likes = likes;
+	}
+
+}

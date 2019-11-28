@@ -1,0 +1,12 @@
+package trabalho;
+
+public class TwitterSupremo{
+	static Repositorio<User> usuarios;
+
+	public TwitterSupremo() {
+		
+	}
+	
+	
+	
+}

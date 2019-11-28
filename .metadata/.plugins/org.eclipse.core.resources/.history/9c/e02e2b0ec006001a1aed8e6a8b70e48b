@@ -1,0 +1,12 @@
+package trabalho;
+
+public class Twitter{
+	static Repositorio<User> usuarios;
+
+	public Twitter() {
+		
+	}
+	
+	
+	
+}
